@@ -107,28 +107,32 @@ const About = () => {
             <button
               onClick={handleNext}
               className="block mx-auto mt-4 text-blue-500"
-            >
-              Next
-            </button>
+            ></button>
           </div>
         </div>
       </div>
-      <div className="lg:hidden">
-        <div className="flex mt-6 mx-4">
-          <div className="w-full text-center">
-            <Image src={images[activeList]} />
+      <div className="lg:hidden block">
+        <div className="flex flex-col items-center mt-6 mx-4">
+          <div>
+            <Image
+              src={images[activeList]}
+              width={500}
+              height={300}
+              alt={`Image ${activeList}`}
+            />
             <p>
               Trello boards keep tasks organized and work moving forward. In a
               glance, see everything from "things to do" to "aww yeah we did
               it!"
             </p>
-            <button
-              onClick={handleNext}
-              className="mt-4 px-3 py-2 bg-blue-500 text-white rounded-md"
-            >
-              Next
-            </button>
           </div>
+
+          <button
+            onClick={handleNext}
+            className="mt-4 px-3 py-2 bg-blue-500 text-white rounded-md"
+          >
+            Next
+          </button>
         </div>
       </div>
     </>
