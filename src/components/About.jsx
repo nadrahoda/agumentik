@@ -44,8 +44,8 @@ const About = () => {
                 <h5 className="font-semibold">Boards</h5>
                 <p>
                   Trello boards keep tasks organized and work moving forward. In
-                  a glance, see everything from things to do to aww yeah we
-                  did it!
+                  a glance, see everything from things to do to aww yeah we did
+                  it!
                 </p>
               </li>
               <li
@@ -57,8 +57,8 @@ const About = () => {
                 <h5 className="font-semibold">Lists</h5>
                 <p>
                   Trello boards keep tasks organized and work moving forward. In
-                  a glance, see everything from things to do to aww yeah we
-                  did it!
+                  a glance, see everything from things to do to aww yeah we did
+                  it!
                 </p>
               </li>
               <li
@@ -70,8 +70,8 @@ const About = () => {
                 <h5 className="font-semibold">Cards</h5>
                 <p>
                   Trello boards keep tasks organized and work moving forward. In
-                  a glance, see everything from things to do to aww yeah we
-                  did it!
+                  a glance, see everything from things to do to aww yeah we did
+                  it!
                 </p>
               </li>
             </ul>
@@ -81,17 +81,17 @@ const About = () => {
               <div className="flex absolute inset-0">
                 <Image
                   src={Boards}
-                  alt='not found'
+                  alt="not found"
                   className={`${activeList === 1 ? "block" : "hidden"}`}
                 />
                 <Image
                   src={Lists}
-                  alt='not found'
+                  alt="not found"
                   className={`${activeList === 2 ? "block" : "hidden"}`}
                 />
                 <Image
                   src={Cards}
-                  alt='not found'
+                  alt="not found"
                   className={`${activeList === 3 ? "block" : "hidden"}`}
                 />
               </div>
@@ -114,16 +114,6 @@ const About = () => {
           </div>
         </div>
       </div>
-<<<<<<< HEAD
-      <div className="lg:hidden block">
-  <div className="flex flex-col items-center mt-6 mx-4">
-    <div>
-      <Image src={images[activeList]} width={500} height={300} alt={`Image ${activeList}`} />
-      <p>
-        Trello boards keep tasks organized and work moving forward. In a glance, see everything from "things to do" to "aww yeah we did it!"
-      </p>
-    </div>
-=======
 
       <div className="lg:hidden block">
         <div className="flex flex-col items-center mt-6 mx-4">
@@ -134,28 +124,21 @@ const About = () => {
               height={300}
               alt={`Image ${activeList}`}
             />
-
-      <div className="lg:hidden">
-        <div className="flex mt-6 mx-4">
-          <div className="w-full text-center">
-            <Image src={images[activeList]} alt='not found' />
-
             <p>
               Trello boards keep tasks organized and work moving forward. In a
-              glance, see everything from things to do to aww yeah we did
-              it!
+              glance, see everything from "things to do" to "aww yeah we did
+              it!"
             </p>
           </div>
->>>>>>> df8943cbecacbd1a1a0bf7ca9d2e5d8d6891593c
 
-    <button
-      onClick={handleNext}
-      className="mt-4 px-3 py-2 bg-blue-500 text-white rounded-md"
-    >
-      Next
-    </button>
-  </div>
-</div>
+          <button
+            onClick={handleNext}
+            className="mt-4 px-3 py-2 bg-blue-500 text-white rounded-md"
+          >
+            Next
+          </button>
+        </div>
+      </div>
     </>
   );
 };
