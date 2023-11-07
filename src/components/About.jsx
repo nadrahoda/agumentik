@@ -126,8 +126,8 @@ const About = () => {
             />
             <p>
               Trello boards keep tasks organized and work moving forward. In a
-              glance, see everything from "things to do" to "aww yeah we did
-              it!"
+              glance, see everything from things to do to aww yeah we did
+              it.
             </p>
           </div>
 
