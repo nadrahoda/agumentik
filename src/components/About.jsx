@@ -114,7 +114,7 @@ const About = () => {
           </div>
         </div>
       </div>
-<<<<<<< HEAD
+
       <div className="lg:hidden block">
         <div className="flex flex-col items-center mt-6 mx-4">
           <div>
