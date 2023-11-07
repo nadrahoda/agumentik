@@ -17,7 +17,7 @@ const Footer = () => {
           </select>
           
         </div>
-        <div className='mt-2 ml-6 flex flex-col'>
+        <div className='mt-2 lg:ml-6 ml-4 flex flex-col'>
         <div className=' items-center'>
         <div className="flex mr-3">
           <a href="#" className="mx-2">
@@ -36,7 +36,7 @@ const Footer = () => {
           {/* Add more social media icons */}
         </div>
         
-        <div className="flex mt-3 lg:flex flex-col">
+        <div className="mt-3 lg:flex flex-row">
         <a className="text-xs mx-2 underline">Security</a>
         <a className="text-xs mx-2 underline">Terms of Services</a>
         <a className="text-xs mx-2 underline">Privacy Policy</a>
