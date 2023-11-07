@@ -124,12 +124,12 @@ const About = () => {
               height={300}
               alt={`Image ${activeList}`}
             />
-=======
+
       <div className="lg:hidden">
         <div className="flex mt-6 mx-4">
           <div className="w-full text-center">
             <Image src={images[activeList]} alt='not found' />
->>>>>>> 9226647f3826f01a9ef8d7329cf34193a9952fbb
+
             <p>
               Trello boards keep tasks organized and work moving forward. In a
               glance, see everything from things to do to aww yeah we did
